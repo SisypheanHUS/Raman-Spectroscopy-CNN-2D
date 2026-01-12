@@ -35,7 +35,8 @@ raman-fake-alcohol-detection/
 │   └── utils.py              # Data loading, training utilities
 │
 ├── notebooks/                # Jupyter notebooks
-│   └── main_pipeline.ipynb   # Complete training pipeline
+│   └── main_pipeline.ipynb   # first draft code (messy ah)
+│   └── main_pipeline.ipynb   # full pipeline
 │
 ├── data/                     # Data directory
 │   ├── Ethanol/              # Raw ethanol spectra
@@ -100,7 +101,7 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 
 ### Running the Full Pipeline
 
-Open and run `notebooks/main_pipeline.ipynb` for the complete training workflow including:
+Open and run `notebooks/demo.ipynb` for the complete training workflow including:
 1. Data loading and preprocessing
 2. Synthetic data generation
 3. GADF transformation
