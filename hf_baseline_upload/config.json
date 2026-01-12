@@ -1,0 +1,10 @@
+{
+    "task": "baseline_classification",
+    "input_shape": 880,
+    "classes": [
+        "polynomial",
+        "gaussian"
+    ],
+    "threshold": 0.5,
+    "description": "Phân loại loại baseline cho phổ Raman trước khi trừ nền bằng airPLS."
+}

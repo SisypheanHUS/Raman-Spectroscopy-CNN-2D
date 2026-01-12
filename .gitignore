@@ -1,0 +1,74 @@
+# ===============================
+# BIG DATA & EXPERIMENTS (DO NOT TRACK)
+# ===============================
+data/
+experiments/
+outputs/
+
+# ===============================
+# Claude Code temp files
+# ===============================
+tmpclaude-*
+
+# ===============================
+# Python
+# ===============================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+.eggs/
+*.manifest
+*.spec
+
+# ===============================
+# Virtual environments
+# ===============================
+venv/
+ENV/
+env/
+.venv/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ===============================
+# IDE
+# ===============================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===============================
+# Temporary/artifact files
+# ===============================
+nul
+*.tmp
+*.log
+
+# ===============================
+# Model checkpoints
+# Ignore intermediate models, optional to track final models
+# ===============================
+*.ckpt
+checkpoint
+*.pt
+*.pth
+*.h5
