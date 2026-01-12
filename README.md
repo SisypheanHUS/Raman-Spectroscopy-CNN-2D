@@ -23,7 +23,6 @@ Counterfeit alcohol containing methanol poses serious health risks. This project
 Raman-Spectroscopy-CNN-2D/
 ├── README.md                 # This file
 ├── requirements.txt          # Python dependencies
-├── CLAUDE.md                 # Claude Code configuration
 ├── .gitignore
 │
 ├── src/                      # Source code modules
@@ -36,7 +35,7 @@ Raman-Spectroscopy-CNN-2D/
 │
 ├── notebooks/                # Jupyter notebooks
 │   └── main_pipeline.ipynb   # first draft code (messy ah)
-│   └── main_pipeline.ipynb   # full pipeline
+│   └── demo.ipynb   # full pipeline
 │
 ├── data/                     # Data directory
 │   ├── Ethanol/              # Raw ethanol spectra
