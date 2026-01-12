@@ -20,7 +20,7 @@ Counterfeit alcohol containing methanol poses serious health risks. This project
 ## Project Structure
 
 ```
-raman-fake-alcohol-detection/
+Raman-Spectroscopy-CNN-2D/
 ├── README.md                 # This file
 ├── requirements.txt          # Python dependencies
 ├── CLAUDE.md                 # Claude Code configuration
@@ -55,8 +55,8 @@ raman-fake-alcohol-detection/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/SisypheanHUS/raman-fake-alcohol-detection.git
-cd raman-fake-alcohol-detection
+git clone https://github.com/SisypheanHUS/Raman-Spectroscopy-CNN-2D
+cd /Raman-Spectroscopy-CNN-2D
 ```
 
 2. Create a virtual environment (recommended):
