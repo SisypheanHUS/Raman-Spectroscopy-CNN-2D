@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://python.org)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.12%2B-orange.svg)](https://tensorflow.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 A deep learning pipeline for detecting counterfeit alcohol using Raman spectroscopy and convolutional neural networks. This project compares 1D spectral analysis with 2D time-series imaging (GADF) approaches using DenseNet and ResNet architectures.
 
@@ -132,12 +131,17 @@ Open and run `notebooks/main_pipeline.ipynb` for the complete training workflow 
 ## Results
 
 The models achieve high classification accuracy on the test set.
+### Sample Spectra 
+![Sample Spectra](assets/spectra.png)
 
-### Sample Spectra
-![Sample Spectra](assets/sample_spectra.png)
+### Confusion Matrix (DenseNet 2D)
+![Confusion Matrix](assets/DenseNet-2D.png)
 
-### Confusion Matrix (DenseNet 1D)
-![Confusion Matrix](assets/confusion_matrix.png)
+### Accuracy Drop
+![Accuracy Drop](assets/accuracy_drop.png)
+
+### Selected Window
+![Seleted Drop](assets/selected_windows.png)
 
 See the `experiments/` folder for detailed training logs and more confusion matrices.
 
@@ -162,12 +166,3 @@ If you use this code in your research, please cite:
 }
 ```
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- ASEAN Conference on Science and Technology
-- [pyts](https://pyts.readthedocs.io/) for GADF implementation
-- TensorFlow/Keras team for deep learning framework
