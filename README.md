@@ -35,7 +35,7 @@ Raman-Spectroscopy-CNN-2D/
 │
 ├── notebooks/                # Jupyter notebooks
 │   └── main_pipeline.ipynb   # first draft code (messy ah)
-│   └── demo.ipynb   # full pipeline
+│   └── demo.ipynb   # demo for DenseNet 1D only
 │
 ├── data/                     # Data directory
 │   ├── Ethanol/              # Raw ethanol spectra
