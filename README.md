@@ -154,16 +154,5 @@ Adaptive Iteratively Reweighted Penalized Least Squares removes fluorescence bac
 ### GADF Transformation
 Gramian Angular Difference Field converts 1D time series to 2D images, encoding temporal correlations for CNN analysis.
 
-## Citation
 
-If you use this code in your research, please cite:
-
-```bibtex
-@misc{raman-fake-alcohol,
-  title={Raman Spectroscopy Fake Alcohol Detection},
-  author={Tuan Dinh},
-  year={2024},
-  url={https://github.com/SisypheanHUS/raman-fake-alcohol-detection}
-}
-```
 
