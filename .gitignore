@@ -72,3 +72,4 @@ checkpoint
 *.pt
 *.pth
 *.h5
+.claude/
